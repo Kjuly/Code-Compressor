@@ -1,0 +1,94 @@
+/*  
+webfile-compressor css style
+Author: KJuly
+Blog: http://KJuly.com/
+*/
+
+h2 { margin-bottom:0; }
+
+body {
+	text-align:center;
+	margin:0;
+	padding:0;
+	background:#eeeeee url('../../images/bg.gif');
+	color:#555555;
+	font-size:12px;
+	font-family:Arial;
+	overflow:hidden;
+}
+
+#page {
+	width:960px;
+	height:1000px;
+	margin:auto;
+	background:url('../../images/bg-content.png') repeat-y left;
+	text-align:left;
+}
+
+#mainarea {
+	clear:both;
+	width:940px;
+	padding:0;
+	margin:0 10px;
+}
+
+#contentarea {
+	width:600px;
+	float:left;
+	padding:0;
+	margin:80px 0 0 0;
+}
+
+#set_div {
+	width;600px;
+	height:90px;
+	margin:0 0 30px 0;
+}
+#set_div .title_left { width:100px; height:30px; text-align:right; display:inline-block; }
+#level_exp_for_js { width:400px; height:70px; display:none; }
+#filetype, #level, #level_exp { width:200px; height:30px; text-align:left; display:inline-block; }
+#level_exp { width:400px; height:40px; display:block; margin:0 0 0 105px; padding:0; font-size:12px; }
+
+#compress_code_form { height:315px; }
+#compress_form { width:498px; margin:0 0 0 102px; }
+* html #compress_form { margin:0 0 0 52px; } /* ie6 fixed */
+*+ html #compress_form { margin:0 0 0 52px; } /* ie7 fixed */
+#src, #res {
+	width:100%; height:200px; margin-top:10px;
+}
+#src { display:block; }
+#res { display:none; }
+#srctitle, #restitle { font-size:14px; font-weight:bold; color:#000; }
+* html #srctitle, * html #restitle { margin-left:52px; } /* ie6 */
+*+ html #srctitle, *+ html #restitle { margin-left:52px; } /* ie7 */
+#srctitle { display:block; }
+#restitle { display:none; color:#f90; }
+#compress_button { margin:5px 0 0 102px; width:503px; height:80px; }
+* html #compress_button { margin:0 0 0 52px; height:50px;  /* ie6 */}
+*+ html #compress_button { margin:0 0 0 52px;  /* ie7 */}
+#compress, #compress_clear { width:100%; height:80px; margin:auto; font-size:22px; font-weight:bold; color:#6099ff; }
+#compress:hover, #compress_clear:hover { cursor:pointer; }
+#compress { display:block; }
+#compress_clear { display:none; }
+
+#side_area {
+	float:right;
+	width:200px;
+	height:455px;
+}
+#download_file_form { margin:80px 0 0 0; padding:5px; width:80%; height:100%; border:3px solid #6099ff; display:none; overflow:hidden; }
+#download_file_empty { height:0%; display:block; }
+#download_file { height:100%; display:block; background:#6099ff; }
+#stat1, #stat2 { text-align:left; margin:0; padding:5px; display:block; font-size:14px; }
+#stat1 { color:#6099ff; }
+#stat2 { color:#f4f4f4; }
+
+#feedback { width:80%; height:30px; padding:0 5px 5px 5px; border:3px solid #6099ff; border-top:none; }
+#feedback_in { height:100%; display:block; background:#6099ff; text-align:center; }
+#feedback a { font-size:14px; color:#f4f4f4; line-height:30px; text-decoration:none; }
+
+#footer { float:left; width:495px; height:30px; margin:16px 0 0 105px; border-top:1px dashed; padding-top:10px; }
+* html #footer { margin:0 0 0 52px; padding:5px; }
+*+ html #footer { margin:15px 0 0 105px; }
+#footer a { color:#444; text-decoration:none; }
+#footer a:hover { color:#000; }
